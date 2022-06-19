@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #FFC0CB;
+  font-family: 'Comic Neue', cursive;
+}
+
+#header-nav{
+  background-color: #FF69B4;
+  border-radius: 0;
+  border:  2px solid black;
+}
+
+.navbar-brand{
+  padding-top: 25px;
+ }
+
+#nav-list a{
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  
+}
+
+h1, h2, h3{
+  font-weight: 700;
+}
+
+#nav-list{
+  background-color: #ff1493;
+  text-align: center;
+}
+
+.nav-item{
+  border: 2px solid black;
+  width: 100%;
+}
+
+#main-content{
+  margin-top: 20px;
+}
+
+.textbox{
+  margin: 30px 20px 10px;
+  background-color: #FF69B4;
+  min-height: 700px;
+  padding: 20px;
+  position: relative;
+}
+
+.textbox a{
+  position: absolute;
+  bottom: 0;
+}
+
+@media(min-width: 992px){
+  .col-lg-4{
+    width: calc(33.33% - 40px);
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  .col-md-6{
+    width: calc(50% - 40px);
+  }
+  .col-md-12{
+    width: calc(100% - 40px);
+  }
+}
